@@ -1,0 +1,1 @@
+public class Q6_Generic_Method_Find_Maximum{static <T extends Comparable<T>> T findMaximum(T a,T b,T c){T m=a;if(b.compareTo(m)>0)m=b;if(c.compareTo(m)>0)m=c;return m;}public static void main(String[]x){System.out.println(findMaximum(10,25,17));System.out.println(findMaximum(4.5,9.2,7.8));System.out.println(findMaximum("Apple","Mango","Banana"));}}
